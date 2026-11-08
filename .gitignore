@@ -1,0 +1,44 @@
+# .NET build outputs and local IDE state
+**/bin/
+**/obj/
+**/.vs/
+*.user
+*.suo
+
+# Local databases and SQLite sidecar files
+**/data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Node dependencies and generated output
+**/node_modules/
+**/dist/
+**/dist-ssr/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+**/appsettings.*.local.json
+**/secrets.json
+
+# Logs and temporary files
+*.log
+*.tmp
+npm-debug.log*
+
+# Local editor and OS files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# Artifacts generated for local viewing; Markdown source is canonical
+/docs/backend-architecture.html
+
+# There is no root package.json; this is an empty local npm lockfile
+/package-lock.json

@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/backend/" />
+  <Folder Name="/src/backend/Application/">
+    <Project Path="src/backend/Application/StoreOps.Application.csproj" />
+  </Folder>
+  <Folder Name="/src/backend/Api/">
+    <Project Path="src/backend/Api/StoreOps.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/backend/Domain/">
+    <Project Path="src/backend/Domain/StoreOps.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/backend/Infrastructure/">
+    <Project Path="src/backend/Infrastructure/StoreOps.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/StoreOps.Api.Tests/StoreOps.Api.Tests.csproj" />
+  </Folder>
+</Solution>
